@@ -1,5 +1,5 @@
 # SDC_Project
-##### *Final project of Brainster Data Science Academy*
+#### *Final project of Brainster Data Science Academy*
 
 ## Content:
 
@@ -13,7 +13,7 @@ The goal of our final project was to use end-to-end learning for self-driving ca
 
 Training | Validation
 ------------|---------------
-![Training Image](./Images/track_one.gif) | ![Validation Image](./Images/track_two.gif)
+![Training](./Images/track_one.gif) | ![Validation](./Images/track_two.gif)
 
 #### Dependencies:
 
@@ -40,6 +40,30 @@ This repository comes with trained model which you can directly test using the f
 
 - `python drive.py model.h5`
 
----
 
- 
+### Implementation
+---
+#### Simulator Environment:
+
+About the graphic configuration of the simulator we decided to be lower graphical quality and lower screen resolution, in our case: fastest with 800 x 600, this decision is based on research for previous users’ experience. The simulator is equipped with training mode and autonomous mode. Training mode is used for collecting data, on the other hand, autonomous mode is used to test your model performance or in other words cars behavior while driving on its own. Top view of the representative track used for autonomous driving is presented below [3]: 
+
+Simulator Top View | 
+----|
+![Simulator Top View](./Images/TopView_Simulator.jpg) | 
+
+While the car was driving in manual mode, the images from the cameras mounted on top of the car were recorded together with the steering angle for that frame, illustrated below. The data from all three cameras mounted on top of the vehicle was recorded and stored together with information about steering angle for a particulare frame.
+
+Cameras Positions | 
+----|
+![Cameras Positions](./Images/Camera_Positions.jpg) | 
+
+#### Dataset Collection:
+
+Data collection was done while the vehicle was driving in manual mode on the representative track. Image data were acquired from the three cameras mounted on the vehicle in the simulator environment. At the end of the mouse ride, the images were stored together with the table containing information about image titles, steering angle values per each recorded frame and information about throttle, brake and speed. An example of images recorded by all the three cameras in one frame is presented below:
+
+Images Recorded | 
+----|
+![Images Recorded ](./Images/Cameras_View_.jpg) |
+
+Three cameras were used for training purpose. During the data collection, in each frame, the images from three cameras were captured with the same steering measurement value. The slight difference in the field of view per each central, left, and right camera leads to a better generalization of the model.
+
