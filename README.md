@@ -18,6 +18,6 @@
 
 Training | Validation
 ------------|---------------
-![training_img](./images/track_one.gif) | ![validation_img](./images/track_two.gif)
+![Training Image](./Images/track_one.gif) | ![Validation Image](./Images/track_two.gif)
 
 
