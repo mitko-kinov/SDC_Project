@@ -4,7 +4,6 @@
 ## Content:
 
 #### Overview / Implementation / Results / Conclusion / References
----
 
 ### Overview
 ---
