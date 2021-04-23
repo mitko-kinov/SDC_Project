@@ -63,7 +63,11 @@ Data collection was done while the vehicle was driving in manual mode on the rep
 
 Images Recorded | 
 ----|
-![Images Recorded ](./Images/Cameras_View_.jpg) |
+![Images Recorded](./Images/Cameras_View_.jpg) |
 
-Three cameras were used for training purpose. During the data collection, in each frame, the images from three cameras were captured with the same steering measurement value. The slight difference in the field of view per each central, left, and right camera leads to a better generalization of the model.
+Three cameras were used for training purpose. During the data collection, time-stamped video from the cameras is captured simultaneously with the steering angle applied by the human driver. The slight difference in the field of view per each central, left, and right camera leads to a better generalization of the model. Simplified block diagram of the collection system for training data is illustrated below:
+
+Data Collection System | 
+----|
+![Data Collection System](./Images/Data_Collection_System.jpg) |
 
