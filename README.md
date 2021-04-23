@@ -85,5 +85,13 @@ Data Augmentation |
 ----|
 ![Data Augmentation](./Images/Data_Augmentation_.jpg) |
 
+#### Dataset Preprocessing:
+
+For training the convolutional neural network, images acquired from all three cameras were used (central, left, and right). All of these images captured a similar scene but from slightly different positions. Advantages of using three cameras instead of one central camera are three times more data, and better performance for steering back to the center scenario when the vehicle starts drifting off to the side. Cropping was used in order to remove the parts of the image that do not have valuable information for the training process, so as to remove the sky, threes and hills on the top of image. After, removing unnecessary segments of the images we resized them for introduction to the input layer. Finally, the images from dataset were normalized by dividing each pixel of the image by 255, which is the maximum value of an image pixel, obtaining a normalized image in range between 0 and 1. An example of the image after cropping is presented below:
+
+Data Preprocessing | 
+----|
+![Data Preprocessing](./Images/Data_Preprocessing.jpg) |
+
 
 
