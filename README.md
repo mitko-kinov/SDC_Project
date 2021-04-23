@@ -16,4 +16,8 @@
 
 
 
+Training | Validation
+------------|---------------
+![training_img](./images/track_one.gif) | ![validation_img](./images/track_two.gif)
+
 
