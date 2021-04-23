@@ -138,7 +138,7 @@ Two additional models were created and trained in order to facilitate comparison
 - Simplified version of AlexNet to encapsulate the problem scenario.
 - Transfer learning approach with MobileNet as nested pretrained model. 
 
-| Parameters | Nvidia | AlexNet | MobileNet |
+| Metrics | Nvidia | AlexNet | MobileNet |
 | ----------- | ----------- | ----------- | ----------- |
 | MSE | % | % | % |
 | RMSE | % | % | % |
