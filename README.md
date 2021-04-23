@@ -93,5 +93,12 @@ Data Preprocessing |
 ----|
 ![Data Preprocessing](./Images/Data_Preprocessing_.jpg) |
 
+#### Dataset:
 
+The total number of acquired samples was 20057 images with a resolution of 200 x 200 x 3. Each recorded image was 200 pixels high, 200 pixels wide, and three channels deep color RGB image. The average memory size of one recorded image was about 15 kB. Each image was paired with the corresponding steering angle value that was normalized in range between −1 and 1. After applying data augmentation, dataset become 60159 samples in total. The data was split into training and test segments, where 80% of data was chosen for training, 48127 samples, and 20% of the data for the test, 12032 samples. The shape of the images was 66 x 200 x 3, which was the input shape.
+
+| Parameters | Training | Test | Total |
+| ----------- | ----------- | ----------- | ----------- |
+| Number of Samples | 48127 | 12032 | 60159 |
+| Percentage of Total Dataset| 80% | 20% | 100% |
 
