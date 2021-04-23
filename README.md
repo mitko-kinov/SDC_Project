@@ -91,7 +91,7 @@ For training the convolutional neural network, images acquired from all three ca
 
 Data Preprocessing | 
 ----|
-![Data Preprocessing](./Images/Data_Preprocessing.jpg) |
+![Data Preprocessing](./Images/Data_Preprocessing_.jpg) |
 
 
 
