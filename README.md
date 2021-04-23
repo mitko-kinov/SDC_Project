@@ -114,7 +114,7 @@ The training process is as follows: proposed angle is compared to the desired an
 
 Training Process | 
 ----|
-![Training Process](./Images/) |
+![Training Process](./Images/Training_Process_.jpg) |
 
 ### Training:
 
@@ -130,6 +130,19 @@ This was the settings that were untilized for our generator:
 - epochs = 60
 - validation_steps = 300
 - shuffle = 1
+
+### Comparison Models:
+
+Two additional models were created and trained in order to facilitate comparison frame. The goal here was to make comparison between different model architectures and our model of interest. The description of the comparison models as follows:
+
+- Simplified version of AlexNet to encapsulate the problem scenario.
+- Transfer learning approach with MobileNet as nested pretrained model. 
+
+| Parameters | Nvidia | AlexNet | MobileNet |
+| ----------- | ----------- | ----------- | ----------- |
+| MSE | % | % | % |
+| RMSE | % | % | % |
+| MAE | % | % | % |
 
 ### Results
 ---
