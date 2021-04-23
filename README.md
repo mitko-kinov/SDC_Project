@@ -111,3 +111,25 @@ Nvidia Model |
 ![Nvidia Model](./Images/Nvidia.jpg) |
 
 The training process is as follows: proposed angle is compared to the desired angle for a input image, and the weights of the Convolutional Neural Network (CNN) are adjusted to bring the CNN output closer to the desired output. The weight adjustment is accomplished using back propagation as implemented in the Keras machine learning package. Illustration of the described training process can be seen below:
+
+Training Process | 
+----|
+![Training Process](./Images/) |
+
+### Training:
+
+After appling all the preprocessing and augmentation techniques, the training dataset was substantial large in size. Thus, we need to consider a `generator` approach for our training process.
+
+We created two generators in order to bridge this memory shortage:
+* `batch_generator()`
+* `fit_generator()` but in Keras that was now just `fit()`
+
+This was the settings that were untilized for our generator:
+
+- steps_per_epoch = 300
+- epochs = 60
+- validation_steps = 300
+- shuffle = 1
+
+### Results
+---
