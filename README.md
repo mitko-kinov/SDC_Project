@@ -161,6 +161,15 @@ Models Performance |
 ----|
 ![Models Performance](./Images/Predictions_Sa.jpg) |
 
+#### Approximated Accuracy: 
+
+- Approximate Accuracy evaluated by predefined treshold of 0.26 radians ~ (15 degrees).
+- Approximate Accuracy evaluated on basis of mislabeled prediction.
+
+Approximated Accuracy Performance | 
+----|
+![Approximated Accuracy Performance](./Images/App_Accuracy.jpg) |
+
 ### Conclusion
 ---
 
