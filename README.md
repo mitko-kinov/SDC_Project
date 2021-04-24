@@ -108,7 +108,7 @@ Our convolutional neural network architecture was replica on NVIDIA's End-to-End
 
 Nvidia Model | 
 ----|
-![Nvidia Model](./Images/Nvidia.jpg) |
+![Nvidia Model](./Images/NvidiaModel.jpg) |
 
 The training process is as follows: proposed angle is compared to the desired angle for a input image, and the weights of the Convolutional Neural Network (CNN) are adjusted to bring the CNN output closer to the desired output. The weight adjustment is accomplished using back propagation as implemented in the Keras machine learning package. Illustration of the described training process can be seen below:
 
