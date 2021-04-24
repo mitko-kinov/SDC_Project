@@ -147,12 +147,24 @@ Two additional models were created and trained in order to facilitate comparison
 ### Results
 ---
 
+The suggested deep neural network Nvidia was compared with simplified model based on AlexNet and transfer learning model based on MobileNet, which we re-implemented in order to conduct an objective performance evaluation of our DNN model of interest. The models of all three network architectures were implemented, trained with the same dataset, and trained models were used for inference, first on validation dataset and later in the simulator for autonomous driving. The results were compared in terms of performance, successfully driving on the representative track, and in terms of complexity of the network and number of trainable parameters.
 
+#### Validation on Dataset:
+
+Untilizing the validation dataset to make predictions for steering angle, represented as steering angles between -1 and 1 (rad) values:
+- Ground Truth plotted with green color.
+- Nvidia model plotted with magenta color.
+- AlexNet model plotted with orange color.
+- ModelMobile plotted with blue color.
+
+Models Performance | 
+----|
+![Models Performance](./Images/Predictions_Sa.jpg) |
 
 ### Conclusion
 ---
 
-In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished [6].
+In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished [6].
 
 ### References
 ---
