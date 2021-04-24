@@ -178,6 +178,12 @@ Assessment Stage |
 ----|
 ![Assessment Stage](./Images/Simulator_Drive.jpg) |
 
+ The Nvidia model network performance in the simulator environment on autonomous mode:
+
+| Training Track 1 | Training Track 2 | Challenge Track |
+|:-----------:|:----------:|:---------:|
+
+
 ### Conclusion
 ---
 
