@@ -146,3 +146,16 @@ Two additional models were created and trained in order to facilitate comparison
 
 ### Results
 ---
+
+
+
+### Conclusion
+---
+
+In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished.
+
+### References
+---
+[1]
+[2]
+[3]
