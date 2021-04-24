@@ -135,8 +135,8 @@ This was the settings that were untilized for our generator:
 
 Two additional models were created and trained in order to facilitate comparison frame. The goal here was to make comparison between different model architectures and our model of interest. The description of the comparison models as follows:
 
-- Simplified version of AlexNet to encapsulate the problem scenario.
-- Transfer learning approach with MobileNet as nested pretrained model. 
+- Simplified version of AlexNet to encapsulate the problem scenario [4].
+- Transfer learning approach with MobileNet as nested pretrained model [5]. 
 
 | Metrics | Nvidia | AlexNet | MobileNet |
 | ----------- | ----------- | ----------- | ----------- |
@@ -152,10 +152,14 @@ Two additional models were created and trained in order to facilitate comparison
 ### Conclusion
 ---
 
-In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished.
+In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning, and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished [6].
 
 ### References
 ---
-[1]
-[2]
-[3]
+
+- [1] https://images.nvidia.com/content/tegra/automotive/images/2016/solutions/pdf/end-to-end-dl-using-px.pdf
+- [2] https://github.com/udacity/self-driving-car-sim
+- [3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6539483/
+- [4] https://scholarworks.calstate.edu/downloads/fx719m76s
+- [5] https://keras.io/api/applications/mobilenet/
+- [6] https://bhargav265.github.io/Simulation_of_self_driving_car/ArtificialLifeReport.pdf
