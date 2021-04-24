@@ -170,6 +170,14 @@ Approximated Accuracy Performance |
 ----|
 ![Approximated Accuracy Performance](./Images/App_Accuracy.jpg) |
 
+#### Simulator Validation:
+
+After we trained the model and evaluated on validation dataset the final step is to assess its performace on the challenge track on the Udacity Simulator. The procedure for this phase is illustrated below:
+
+Assessment Stage | 
+----|
+![Assessment Stage](./Images/Simulator_Drive.jpg) |
+
 ### Conclusion
 ---
 
