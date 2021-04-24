@@ -182,12 +182,17 @@ Assessment Stage |
 
 | Training Track 1 | Training Track 2 | Challenge Track |
 |:-----------:|:----------:|:---------:|
+|   Video 1   |    Video 2   |   Video 3  |
 
 
 ### Conclusion
 ---
 
 In this project, we were able to successfully predict the steering angles using convolutional neural networks and were able to understand the inner details of convolutional neural networks along with the way they can be tuned. We also demonstrated that CNN’s are able to learn the entire task of lane and road following without manual decomposition into road or lane marking detection, semantic abstraction, path planning and control. A small amount of training data from simulator environment was sufficient to train the car to operate in unknown road and scenery. An interesting caveat to this is that the neural network was able to successfully drive on this track that it had not been trained on. Finally, the task defined in our academy project was successfully accomplished [6].
+
+Further extensions and future direction:
+- Continue the work in the field of Self Driving Cars in more depth such as: dataset, preprocessing techniques and model development.
+- Adapt the model network architecture for implementation on embedded system to assess its interaction in real world scenarios.
 
 ### References
 ---
