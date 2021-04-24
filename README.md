@@ -168,7 +168,7 @@ Models Performance |
 
 Approximated Accuracy Performance | 
 ----|
-![Approximated Accuracy Performance](./Images/App_Accuracy.jpg) |
+![Approximated Accuracy Performance](./Images/Accuracy_Comparison.PNG) |
 
 #### Simulator Validation:
 
