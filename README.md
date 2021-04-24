@@ -127,8 +127,8 @@ We created two generators in order to bridge this memory shortage:
 This was the settings that were untilized for our generator:
 
 - steps_per_epoch = 300
-- epochs = 60
-- validation_steps = 300
+- epochs = 70
+- validation_steps = 200
 - shuffle = 1
 
 ### Comparison Models:
@@ -140,9 +140,9 @@ Two additional models were created and trained in order to facilitate comparison
 
 | Metrics | Nvidia | AlexNet | MobileNet |
 | ----------- | ----------- | ----------- | ----------- |
-| MSE | % | % | % |
-| RMSE | % | % | % |
-| MAE | % | % | % |
+| MSE | 0.0170 | 0.0361 | 0.0222 |
+| RMSE | 0.1304 | 0.1901 | 0.1490 |
+| MAE | 0.0952 | 0.1461 | 0.1116 |
 
 ### Results
 ---
