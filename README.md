@@ -71,6 +71,12 @@ Data Collection System |
 ----|
 ![Data Collection System](./Images/Data_Collection_System.jpg) |
 
+Visualization of the steering angle distribution for better understanding the nature of the driving performance:
+
+Steering Angle Distribution | 
+----|
+![Steering Angle Distribution](./Images/Steering_Distribution.jpg) |
+
 #### Dataset Augmentation:
 
 After data collection we applied data augmentation techniques. One of the most important features that our neural network had to learn was the curves. A simple method to double the dataset size and put the focus on curves was data augmentation. The following techniques are used:
