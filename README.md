@@ -42,7 +42,7 @@ SDC_project includes the following files:
 * ```model.h5``` containing the trained Nvidia convolution neural network. 
 * ```README.MD``` containing the summary of the project.
 * ```Dependencies``` containing all the libraries used in the project.
-* ```Images``` containing images for building RAEDME.MD.
+* ```Images``` containing images for building README.MD.
 * ```Videos``` containing video recording of the car performance on autonomous mode on different tracks.
 
 #### How to Run the Model:
