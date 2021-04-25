@@ -34,6 +34,15 @@ The following Python libraries were utilized:
 | Imgaug | 0.4.0 |
 | Matplotlib | 3.3.4 |
 
+#### Files
+
+SDC_project includes the following files:
+* ```SDC_Final_Project.ipynb``` containing the script to create and train the model.
+* ```drive.py``` containing the script for driving the car in autonomous mode.
+* ```model.h5``` containing the trained Nvidia convolution neural network. 
+* ```README.MD``` containing the summary of the project.
+* ```Videos/``` containing video recording of the car performance on autonomous mode on different tracks.
+
 #### How to Run the Model:
 
 This repository comes with trained model which you can directly test using the following command:
