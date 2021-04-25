@@ -108,6 +108,12 @@ The total number of acquired samples was 20057 images with a resolution of 200 x
 | Number of Samples | 48127 | 12032 | 60159 |
 | Percentage of Total Dataset| 80% | 20% | 100% |
 
+Final illustration of y_train and y-test distributions for training and validation are shown below:
+
+y-Segments Distributions | 
+----|
+![y-Segments Distributions](./Images/y-Segments_Distributions.jpg) |
+
 #### Model:
 
 Our convolutional neural network architecture was replica on NVIDIA's End-to-End Learning for Self-Driving Cars model.
