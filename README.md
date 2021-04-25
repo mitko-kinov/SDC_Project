@@ -158,7 +158,11 @@ These are three error metrics that we used for evaluating and reporting the perf
 | RMSE | 0.1304 | 0.1901 | 0.1490 |
 | MAE | 0.0952 | 0.1461 | 0.1116 |
 
+Model loss for training and validation for Nvidia, AlexNet and MobileNet, which is clear representation of the models training process:
 
+Models Loss | 
+----|
+![Models Loss](./Images/Models_Loss.jpg) |
 
 #### Validation on Dataset:
 
@@ -179,7 +183,7 @@ Models Performance |
 
 Approximated Accuracy Performance | 
 ----|
-![Approximated Accuracy Performance](./Images/Accuracy_Comparison.PNG) |
+![Approximated Accuracy Performance](./Images/Accuracy_Comparison_.jpg) |
 
 #### Simulator Validation:
 
@@ -187,7 +191,7 @@ After we trained the model and evaluated on validation dataset the final step is
 
 Assessment Stage | 
 ----|
-![Assessment Stage](./Images/Simulator_Drive.jpg) |
+![Assessment Stage](./Images/Simulator_Drive__.jpg) |
 
  The Nvidia model network performance in the simulator environment on autonomous mode:
 
