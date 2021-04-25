@@ -179,7 +179,7 @@ Models Performance |
 
 Approximated Accuracy Performance | 
 ----|
-![Approximated Accuracy Performance](./Images/Accuracy_Comparison.PNG) |
+![Approximated Accuracy Performance](./Images/Accuracy_Comparison_.jpg) |
 
 #### Simulator Validation:
 
@@ -187,7 +187,7 @@ After we trained the model and evaluated on validation dataset the final step is
 
 Assessment Stage | 
 ----|
-![Assessment Stage](./Images/Simulator_Drive.jpg) |
+![Assessment Stage](./Images/Simulator_Drive__.jpg) |
 
  The Nvidia model network performance in the simulator environment on autonomous mode:
 
