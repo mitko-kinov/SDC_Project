@@ -138,16 +138,27 @@ Two additional models were created and trained in order to facilitate comparison
 - Simplified version of AlexNet to encapsulate the problem scenario [4].
 - Transfer learning approach with MobileNet as nested pretrained model [5]. 
 
+### Results
+---
+
+The suggested deep neural network Nvidia was compared with simplified model based on AlexNet and transfer learning model based on MobileNet, which we re-implemented in order to conduct an objective performance evaluation of our DNN model of interest. The models of all three network architectures were implemented, trained with the same dataset, and trained models were used for inference, first on validation dataset and later in the simulator for autonomous driving. The results were compared in terms of performance, successfully driving on the representative track, and in terms of complexity of the network and number of trainable parameters.
+
+#### Models Performance:
+
+Errors summarizes on average how close predictions were to their expected values.
+These are three error metrics that we used for evaluating and reporting the performance of our models, they are:
+
+- Mean Squared Error (MSE).
+- Root Mean Squared Error (RMSE).
+- Mean Absolute Error (MAE)
+
 | Metrics | Nvidia | AlexNet | MobileNet |
 | ----------- | ----------- | ----------- | ----------- |
 | MSE | 0.0170 | 0.0361 | 0.0222 |
 | RMSE | 0.1304 | 0.1901 | 0.1490 |
 | MAE | 0.0952 | 0.1461 | 0.1116 |
 
-### Results
----
 
-The suggested deep neural network Nvidia was compared with simplified model based on AlexNet and transfer learning model based on MobileNet, which we re-implemented in order to conduct an objective performance evaluation of our DNN model of interest. The models of all three network architectures were implemented, trained with the same dataset, and trained models were used for inference, first on validation dataset and later in the simulator for autonomous driving. The results were compared in terms of performance, successfully driving on the representative track, and in terms of complexity of the network and number of trainable parameters.
 
 #### Validation on Dataset:
 
