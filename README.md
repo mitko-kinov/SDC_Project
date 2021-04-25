@@ -39,7 +39,8 @@ The following Python libraries were utilized:
 SDC_project includes the following files:
 * ```SDC_Final_Project.ipynb``` containing the script to create and train the model.
 * ```drive.py``` containing the script for driving the car in autonomous mode.
-* ```model.h5``` containing the trained Nvidia convolution neural network. 
+* ```model.h5``` containing the trained Nvidia convolution neural network.
+* ```SDC_Dataset``` containing the simulator data for training.  
 * ```README.MD``` containing the summary of the project.
 * ```Dependencies``` containing all the libraries used in the project.
 * ```Images``` containing images for building README.MD.
