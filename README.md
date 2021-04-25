@@ -34,7 +34,7 @@ The following Python libraries were utilized:
 | Imgaug | 0.4.0 |
 | Matplotlib | 3.3.4 |
 
-#### Files
+#### Files:
 
 SDC_project includes the following files:
 * ```SDC_Final_Project.ipynb``` containing the script to create and train the model.
