@@ -158,7 +158,11 @@ These are three error metrics that we used for evaluating and reporting the perf
 | RMSE | 0.1304 | 0.1901 | 0.1490 |
 | MAE | 0.0952 | 0.1461 | 0.1116 |
 
+Model loss for training and validation for Nvidia, AlexNet and MobileNet, which is clear representation of the models training process:
 
+Models Loss | 
+----|
+![Models Loss](./Images/Models_Loss.jpg) |
 
 #### Validation on Dataset:
 
