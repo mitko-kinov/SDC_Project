@@ -221,7 +221,7 @@ Assessment Stage |
 
 | Training Track 1 | Training Track 2 | Challenge Track |
 |:-----------:|:----------:|:---------:|
-|   Video 1   |    Video 2   |   Video 3  |
+| ![Training Track 1](./Videos/SDC_T1_.mp4) | ![Training Track 2](./Videos/SDC_T2_.mp4) | ![Challenge Track](./Videos/SDC_CT_.mp4) |
 
 
 ### Conclusion
