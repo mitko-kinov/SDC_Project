@@ -221,8 +221,7 @@ Assessment Stage |
 
 | Training Track 1 | Training Track 2 | Challenge Track |
 |:-----------:|:----------:|:---------:|
-| [![Training Track 1](https://img.youtube.com/watch?v=q-ewsdm0ll4&t=12s/0.jpg)](https://www.youtube.com/watch?v=q-ewsdm0ll4&t=12s)| V2 | V3 |
-
+| [![Introduction video](https://img.youtube.com/vi/q-ewsdm0ll4/0.jpg)](https://www.youtube.com/watch?v=q-ewsdm0ll4) | [![Introduction video](https://img.youtube.com/vi/JSjuFLVDLQA/0.jpg)](https://www.youtube.com/watch?v=JSjuFLVDLQA) | [![Introduction video](https://img.youtube.com/vi/jH5hXtbEXg4/0.jpg)](https://www.youtube.com/watch?v=jH5hXtbEXg4) |
 
 ### Conclusion
 ---
