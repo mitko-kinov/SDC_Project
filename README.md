@@ -221,7 +221,7 @@ Assessment Stage |
 
 | Training Track 1 | Training Track 2 | Challenge Track |
 |:-----------:|:----------:|:---------:|
-| ![Training Track 1](https://www.youtube.com/watch?v=q-ewsdm0ll4) | ![Training Track 2](./Videos/SDC_T2_.mp4) | ![Challenge Track](./Videos/SDC_CT_.mp4) |
+| [![Training Track 1](https://img.youtube.com/watch?v=q-ewsdm0ll4&t=12s/0.jpg)](https://www.youtube.com/watch?v=q-ewsdm0ll4&t=12s)| V2 | V3 |
 
 
 ### Conclusion
